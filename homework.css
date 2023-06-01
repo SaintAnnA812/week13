@@ -1,0 +1,62 @@
+* {
+    background-color: rgb(40, 38, 38);
+    color: white;
+
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+}
+
+.titles {
+    color: rgb(66, 66, 151);
+}
+
+.comments,
+.line {
+    border-style: dashed;
+    border-color: rgb(66, 66, 151);
+}
+
+.btn {
+    background-color: rgb(66, 66, 151);
+}
+
+#avatar-img {
+    width: 100px;
+    height: 100px;
+}
+
+#clean-comment {
+    border-bottom: dashed;
+    border-color: rgb(66, 66, 151);
+
+}
+
+/*.container-name {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}*/
+.container__chat {
+    width: 800px;
+
+}
+
+.chat-date {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.date {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/*#date {
+    justify-self: end;
+    align-items: center;
+}*/
