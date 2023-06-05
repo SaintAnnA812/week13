@@ -31,10 +31,12 @@
                 <label for="avatar">Введите ссылку <strong>вашего аватара</strong>:</label>
                 <p><input class="line" type="text" name="avatar" id="avatar"></p>
 
+
                 <p>Оставьте комментарий:</p>
                 <textarea class="comments" name="comments" cols="30" rows="10" id="comments"></textarea><br>
 
-                <p><input class="btn" type="button" name="send" value="Отправить" onclick="clickMe()"></p>
+                <p><input class="btn" type="button" name="send" value="Отправить" onclick="clickMe()"
+                        onchange="changeMe()" oninput="changeImg()"></p>
         </div>
 
         <div class="container__chat">
@@ -46,13 +48,27 @@
                 </div>
 
                 <p id="chat"></p>
-                <img alt="avatar" id="avatar-img"></img>
-                <p id="clean-comment"></p>
+            </div>
+            <img alt="avatar" id="avatar-img"></img>
+            <img src="" alt="free-avatar0" id="free-avatar0">
 
 
+            <div class="container__avatar">
 
+
+                <img alt="" id="free-avatar" class="random-img">
+                <img alt="" id="free-avatar1" class="random-img">
+                <img alt="" id="free-avatar2" class="random-img">
+                <img alt="" id="free-avatar3" class="random-img">
+                <img alt="" id="free-avatar4" class="random-img">
 
             </div>
+
+
+            <p id="clean-comment"></p>
+
+
+
         </div>
 
     </div>
